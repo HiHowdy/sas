@@ -1,0 +1,21 @@
+{
+    "token": "Njg1ODQxOTY3NDAxMTQwMjI1.XmOiPw.h5B015ymtZrRZP_OCZ5431iQKVg",
+    "prefix": "!",
+    "roles": {
+        "admin": "503572065190936586",
+        "editor": "503572782118862858",
+        "designer": "503572734920359939",
+        "content": "503572559564898304",
+        "team": "503572559564898304"
+    },
+    "channels": {
+        "design": "",
+        "edit": "",
+        "upload": "",
+        "announcement": "503573637354356736"
+    },
+    "errors": {
+        "args": "Invalid arguments."
+    },
+    "level_channel_id": "685842704302604381"
+}
