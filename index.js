@@ -114,5 +114,5 @@ function getDateTime() {
     return year + ":" + month + ":" + day + ":" + hour + ":" + min + ":" + sec;
 }
 
-client.login(config.token);
+client.login(process.env.BOT_TOKEN);
 
