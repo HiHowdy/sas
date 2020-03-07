@@ -25,17 +25,17 @@ module.exports = {
 
         switch (request) {
             case 'edit':
-                client.channels.get("684873461583183902").send(`**Request**: <@${message.author.id}>\n**Description**: ${description}\nIf you accept this request, message the requester to let them know then delete this message.`);
+                client.channels.get("685844982502129670").send(`**Request**: <@${message.author.id}>\n**Description**: ${description}\nIf you accept this request, message the requester to let them know then delete this message.`);
                 message.author.send(messageSend);
                 return;
                 break;
             case 'design':
-                client.channels.get("684873407405228062").send(`**Request**: <@${message.author.id}>\n**Description**: ${description}\nIf you accept this request, message the requester to let them know then delete this message.`);
+                client.channels.get("685845221137055889").send(`**Request**: <@${message.author.id}>\n**Description**: ${description}\nIf you accept this request, message the requester to let them know then delete this message.`);
                 message.author.send(messageSend);
                 return;
                 break;
             case 'upload':
-                client.channels.get("684873512715812900").send(`**Request**: <@${message.author.id}>\n**Description**: ${description}\nOnce this request has been reviewed, message the player to let them know then delete this message.`);
+                client.channels.get("685845336413306967").send(`**Request**: <@${message.author.id}>\n**Description**: ${description}\nOnce this request has been reviewed, message the player to let them know then delete this message.`);
                 message.author.send(messageSend);
                 return;
                 break;
